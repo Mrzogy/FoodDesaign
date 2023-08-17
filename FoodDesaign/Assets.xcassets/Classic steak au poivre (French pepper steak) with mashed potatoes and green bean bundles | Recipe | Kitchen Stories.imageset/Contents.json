@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Classic steak au poivre (French pepper steak) with mashed potatoes and green bean bundles | Recipe | Kitchen Stories.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
