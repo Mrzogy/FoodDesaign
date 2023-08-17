@@ -18,7 +18,7 @@ struct Cards: View {
                         HStack {
                             CoustomCardFood()
                                 .padding()
-                            CoustomCardFood(image: "Unknown-13", left: "8", StartTime: "4:00", KM: "1")
+                            CoustomCardFood(image: <#T##String?#>, left: <#T##String?#>, imageCircle: <#T##String?#>, imageTitle: <#T##String?#>, StartTime: <#T##String?#>, finishTime: <#T##String?#>, Rate: <#T##String?#>, KM: <#T##String?#>, price: <#T##String?#>)
                         }
                         //  .padding()
                     }

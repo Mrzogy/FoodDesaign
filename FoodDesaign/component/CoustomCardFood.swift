@@ -121,10 +121,14 @@ struct CoustomCardFood: View {
                         }
                     }.padding()
                 }
-                Text(price ?? "$5.99")
-                    .foregroundColor(Color("green"))
-                    .fontWeight(.bold)
-                    .padding()
+                HStack(spacing: 5) {
+                    Text("$")
+                        .foregroundColor(Color("green"))
+                    Text(price ?? "5.99")
+                        .foregroundColor(Color("green"))
+                        .fontWeight(.bold)
+                    //.padding()
+                }.padding()
             }
             
         }
