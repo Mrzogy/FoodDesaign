@@ -14,7 +14,7 @@ struct Cards: View {
             VStack() {
                 VStack(spacing: -10) {
                     CoustomType()
-                    ScrollView(.horizontal) {
+                    ScrollView(.horizontal,showsIndicators: false) {
                         HStack {
                             CoustomCardFood()
                                 .padding()
@@ -60,7 +60,7 @@ struct Cards: View {
               
                 VStack(spacing: -10) {
                     CoustomType(title: "Pick up tomorrow")
-                    ScrollView(.horizontal) {
+                    ScrollView(.horizontal,showsIndicators: false) {
                         HStack {
                             CoustomCardFood(
                                 image: "15 Best Things To Do In Mumbai, India",
